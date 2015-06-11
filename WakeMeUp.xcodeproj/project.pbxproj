@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		457D76C71B25407A00F1A57F /* clock.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 457D76C61B25407A00F1A57F /* clock.bmp */; };
+		457D76C91B2540CC00F1A57F /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 457D76C81B2540CC00F1A57F /* clock.png */; };
 		45B168EB1B1D42C70011431F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B168EA1B1D42C70011431F /* AppDelegate.swift */; };
 		45B168ED1B1D42C70011431F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B168EC1B1D42C70011431F /* ViewController.swift */; };
 		45B168F01B1D42C70011431F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B168EE1B1D42C70011431F /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		457D76C61B25407A00F1A57F /* clock.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = clock.bmp; path = ../../clock.bmp; sourceTree = "<group>"; };
+		457D76C81B2540CC00F1A57F /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = ../../clock.png; sourceTree = "<group>"; };
 		45B168E51B1D42C70011431F /* WakeMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B168E91B1D42C70011431F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B168EA1B1D42C70011431F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		45B168E81B1D42C70011431F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				457D76C81B2540CC00F1A57F /* clock.png */,
+				457D76C61B25407A00F1A57F /* clock.bmp */,
 				45B168E91B1D42C70011431F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45B168F01B1D42C70011431F /* Main.storyboard in Resources */,
+				457D76C91B2540CC00F1A57F /* clock.png in Resources */,
 				45B168F51B1D42C70011431F /* LaunchScreen.xib in Resources */,
+				457D76C71B25407A00F1A57F /* clock.bmp in Resources */,
 				45B168F21B1D42C70011431F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +351,7 @@
 				INFOPLIST_FILE = WakeMeUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,6 +362,7 @@
 				INFOPLIST_FILE = WakeMeUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -409,6 +419,7 @@
 				45B169061B1D42C70011431F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45B169071B1D42C70011431F /* Build configuration list for PBXNativeTarget "WakeMeUpTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +428,7 @@
 				45B169091B1D42C70011431F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
