@@ -97,6 +97,12 @@
                                                 <segue destination="vXZ-lx-hvc" kind="show" id="OEb-Py-ujy"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Next" id="bdl-Ve-frP">
+                                            <connections>
+                                                <action selector="PressNext:" destination="XgT-eG-6uI" id="veC-3T-Twb"/>
+                                                <segue destination="XGm-W1-48H" kind="show" id="Zge-CG-Gak"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                                 <variation key="widthClass=compact" fixedFrame="YES">

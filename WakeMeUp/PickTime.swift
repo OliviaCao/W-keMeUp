@@ -12,6 +12,9 @@ class PickTime: UIViewController {
 
     @IBOutlet weak var DatePickerObject: UIDatePicker!
     
+    @IBAction func PressNext(sender: AnyObject) {
+        println("Next is Pressed")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
