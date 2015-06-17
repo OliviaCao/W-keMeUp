@@ -15,6 +15,7 @@
 		45B168F21B1D42C70011431F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B168F11B1D42C70011431F /* Images.xcassets */; };
 		45B168F51B1D42C70011431F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45B168F31B1D42C70011431F /* LaunchScreen.xib */; };
 		45B169011B1D42C70011431F /* WakeMeUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B169001B1D42C70011431F /* WakeMeUpTests.swift */; };
+		45F0B91E1B2FBFB600F48C50 /* PickTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0B91D1B2FBFB600F48C50 /* PickTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		45B168FA1B1D42C70011431F /* WakeMeUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMeUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B168FF1B1D42C70011431F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B169001B1D42C70011431F /* WakeMeUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeUpTests.swift; sourceTree = "<group>"; };
+		45F0B91D1B2FBFB600F48C50 /* PickTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				45B168EA1B1D42C70011431F /* AppDelegate.swift */,
 				45B168EC1B1D42C70011431F /* ViewController.swift */,
 				45B168EE1B1D42C70011431F /* Main.storyboard */,
+				45F0B91D1B2FBFB600F48C50 /* PickTime.swift */,
 				45B168F11B1D42C70011431F /* Images.xcassets */,
 				45B168F31B1D42C70011431F /* LaunchScreen.xib */,
 				45B168E81B1D42C70011431F /* Supporting Files */,
@@ -222,6 +225,7 @@
 			files = (
 				45B168ED1B1D42C70011431F /* ViewController.swift in Sources */,
 				45B168EB1B1D42C70011431F /* AppDelegate.swift in Sources */,
+				45F0B91E1B2FBFB600F48C50 /* PickTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
