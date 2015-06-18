@@ -13,7 +13,8 @@ import MediaPlayer
 class Alarm_time: NSObject {
     
     var todo:String
-    var date: NSDate
+    var date:NSDate
+    //var date = NSDate.timeIntervalSinceReferenceDate()
     var media:MPMediaItem
     
     init( todo:String, date:NSDate, media:MPMediaItem ) {

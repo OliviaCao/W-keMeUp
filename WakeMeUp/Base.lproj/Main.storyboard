@@ -86,6 +86,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="59" width="400" height="362"/>
                                 </variation>
+                                <connections>
+                                    <action selector="Move_DatePicker:" destination="XgT-eG-6uI" eventType="valueChanged" id="quP-pE-xlB"/>
+                                </connections>
                             </datePicker>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XO7-yw-ge9">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -94,6 +97,7 @@
                                     <navigationItem title="Alarm Time" id="uTB-5T-zEE">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="J4D-6w-T7Q">
                                             <connections>
+                                                <action selector="Back_pressed:" destination="XgT-eG-6uI" id="EB9-9g-yqT"/>
                                                 <segue destination="vXZ-lx-hvc" kind="show" id="OEb-Py-ujy"/>
                                             </connections>
                                         </barButtonItem>
@@ -109,18 +113,29 @@
                                     <rect key="frame" x="0.0" y="15" width="400" height="44"/>
                                 </variation>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUk-hj-vZ1">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="145" y="492" width="110" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.84629623460485548" green="0.94903680451064698" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="6Bw-UC-aLy"/>
                                 <exclude reference="XO7-yw-ge9"/>
+                                <exclude reference="zUk-hj-vZ1"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="6Bw-UC-aLy"/>
                                 <include reference="XO7-yw-ge9"/>
+                                <include reference="zUk-hj-vZ1"/>
                             </mask>
                         </variation>
                     </view>
@@ -128,7 +143,9 @@
                         <barButtonItem key="leftBarButtonItem" title="Back" id="pg2-j9-mTg"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="Back_Button" destination="J4D-6w-T7Q" id="dUn-SD-KiX"/>
                         <outlet property="DatePickerObject" destination="6Bw-UC-aLy" id="qUN-Vy-jyt"/>
+                        <outlet property="display_time" destination="zUk-hj-vZ1" id="fs8-se-r3K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Emg-1O-Tow" userLabel="First Responder" sceneMemberID="firstResponder"/>
